@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Form 2</title>
+        <style>
+       
+           .one{
+                 width: 30%;
+                 background-color: aqua;
+                 border: 3px ridge red;
+                 border-radius: 10px;
+                 margin-left: 500px;
+                 
+           } 
+          
+           
+           .two{
+            color: brown;
+            font-family: cursive;
+           }
+           .three{
+            border: 2px ridge goldenrod;
+            background-color: gray;
+           }
+           .four{
+             font-size: 35px;
+             color: darkgreen;
+             font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+           }
+           #five{
+             
+              margin-left: 510px;
+              background-color: brown;
+           }
+
+           body{
+            height: 600px;
+            width: 1200px;
+           overflow: hidden;
+           position: relative;
+           background-image: url(flower.jpg);
+           background-position: center;
+           background-repeat: no-repeat;
+           background-size: cover;
+           
+           }
+     
+        </style>
+  </head>
+  <body>
+    
+    <form action="">
+        <fieldset class="one" >
+         <legend class="four">Personal Details</legend>
+    
+    
+    <label for="fname" class="two" >First Name</label>
+    <input type="text" class="three" id="fname" name="fname">
+    <br><br>
+
+    <label for="mname" class="two" >Middle Name</label>
+    <input type="text" class="three" id="mname" name="mname">
+    <br><br>
+
+    <label for="lname" class="two" >Last Name</label>
+    <input type="text" class="three" id="lname" name="lname">
+    <br><br>
+
+    <label for="email" class="two" >Email</label>
+    <input type="email" class="three" id="email" name="email">
+    <br><br>
+
+    <label for="dob" class="two" >DOB</label>
+    <input type="date" class="three" id="dob" name="dob">
+    <br><br>
+  </fieldset>
+
+  <fieldset class="one">
+    <legend class="four">Education Details</legend>
+
+    <label for="" class="two">Department</label>
+    <br><br>
+
+    <input type="radio" id="cs" name="dept">
+    <label for="cs" >cs</label>
+
+    
+    <input type="radio" id="civil" name="dept">
+    <label for="civil" >civil</label>
+
+    <input type="radio" id="mech" name="dept">
+    <label for="mech" >mech</label>
+    <br><br>
+
+    <label for="yop" class="two">YOG</label>
+    <input list="yog" class="three" id="yop" name="yop">
+    <datalist id="yog">
+        <option>2018</option>
+        <option>2019</option>
+        <option>2020</option>
+        <option>2021</option>
+        <option>2022</option>
+        <option>2023</option>
+    </datalist>
+    <br><br>
+    
+    <label for="" class="two">Skills</label>
+    <br><br>
+
+    <input type="checkbox" id="html" name="html">
+    <label for="html">HTML</label>
+    <br><br>
+
+    <input type="checkbox" id="css" name="css">
+    <label for="css">CSS</label>
+    <br><br>
+
+    <input type="checkbox" id="Javascript" name="javascript">
+    <label for="Javascript">JAVASCRIPT</label>
+    <br><br>
+       
+    </fieldset>
+    <br>   
+    </form>
+
+    <a href="Message.html">
+    <input type="submit"  id="five">
+   </a>
+    
+    </body>
+  </html>
